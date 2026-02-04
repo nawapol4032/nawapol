@@ -15,9 +15,5 @@
 	unset(  $_SESSION['name'] ) ;
 	unset(  $_SESSION['p1'] ) ;
 ?>
-
-
-
-
 </body>
 </html>
