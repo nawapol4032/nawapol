@@ -17,9 +17,5 @@
 	echo $_SESSION['p1'] . "<br>";
 	echo $_SESSION['p2'] . "<br>";
 ?>
-
-
-
-
 </body>
 </html>
