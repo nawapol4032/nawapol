@@ -2,12 +2,12 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>ไชยวัฒน์ เหล่าหลำ(เจย์)</title>
+<title>นวพล ชุมพล(หลุยส์)</title>
 </head>
 
 <body>
 
-<h1>งาน i -- ไชยวัฒน์ เหล่าหลำ(เจย์)</h1>
+<h1>งาน i -- นวพล ชุมพล(หลุยส์)</h1>
 
 <form method="post" action="">
     ชื่อภาค <input type="text" name="rname" autofocus required>
