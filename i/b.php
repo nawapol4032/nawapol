@@ -14,11 +14,11 @@ include_once("connectdb.php");
 
 if(isset($_POST['Submit'])){
     $rname = $_POST['rname'];
-    $sql2 = "INSERT INTO region (r_id, r_name) VALUES (NULL, '{$rname}')";
+    $sql2 = "INSERT INTO regions (r_id, r_name) VALUES (NULL, '{$rname}')";
     mysqli_query($conn,$sql2) or die ("เพิ่มข้อมูลไม่ได้");
 }
 
-$sql = "SELECT * FROM region";
+$sql = "SELECT * FROM regions";
 $rs = mysqli_query($conn, $sql);
 ?>
 
@@ -41,7 +41,7 @@ while ($data = mysqli_fetch_array($rs)){
         <td><?php echo $data['r_id'];?></td>
         <td><?php echo $data['r_name'];?></td>
         <td width="80" align="center">
-            <a href="delete_region.php?id=<?php echo $data['r_id'];?>" 
+            <a href="delete_regions.php?id=<?php echo $data['r_id'];?>" 
                onclick="return confirm('ยืนยันการลบหรือไม่');">
                <img src="images/Delete.png" width="20">
             </a>
